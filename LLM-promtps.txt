@@ -1,0 +1,108 @@
+1. df['CGPA'].fillna(df['CGPA'].median(), inplace=True) why median why not mean
+ ChatGPT
+ https://chat.openai.com 
+
+
+2. what do you mean by slight negative skew
+ ChatGPT
+ https://chat.openai.com 
+
+
+3. C:\Users\Dell\AppData\Local\Temp\ipykernel_13568\1629570957.py:1: ChainedAssignmentError: A value is being set on a copy of a DataFrame or Series through chained assignment using an inplace method. Such inplace method never works to update the original DataFrame or Series, because the intermediate object on which we are setting values always behaves as a copy (due to Copy-on-Write). For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' instead, to perform the operation inplace on the original object, or try to avoid an inplace operation using 'df[col] = df[col].method(value)'. See the documentation for a more detailed explanation: https://pandas.pydata.org/pandas-docs/stable/user_guide/copy_on_write.html df['CGPA'].fillna(df['CGPA'].mean(), inplace=True)
+ ChatGPT
+ https://chat.openai.com 
+
+
+4. df['Substance_Use'].fillna("Unknown", inplace=True) should i really fill it with unknown. will it effect the skewness of the data or anything because most of the entries have frequently, never and occasionally
+ ChatGPT
+ https://chat.openai.com 
+
+
+5. TypeError: LogisticRegression.__init__() got an unexpected keyword argument 'multi_class' model = LogisticRegression(max_iter=1000, multi_class='multinomial') model.fit(X_train, y_train) y_pred = model.predict(X_test) print(classification_report(y_test, y_pred))
+ ChatGPT
+ https://chat.openai.com 
+
+
+6. Shouldn't we have removed the outliers — is there no person with age 131 or a CGPA of 16.
+ Claude.ai 
+ https://claude.ai
+
+
+7. I want you to build the chatbot interface.
+ Claude.ai 
+ https://claude.ai
+
+
+8. Give me the best option for the chatbot interface and the code for it, and tell me where it will be inserted.
+ Claude.ai 
+ https://claude.ai
+
+
+9. Why are we training the models in Gradio again when we already did it in the models file.
+ Claude.ai 
+ https://claude.ai
+
+
+10. FileNotFoundError: [Errno 2] No such file or directory: 'd:\\AbertayStudy\\ML & AI\\Mental_Health\\..\\models\\best_model.pkl'. The app.py file cannot find the model file and is throwing a FileNotFoundError. Can you fix the path.
+ Claude.ai 
+ https://claude.ai
+
+
+11. TypeError: got an unexpected keyword argument 'squared'. Fix it and explain why this is happening.
+ Claude.ai 
+ https://claude.ai
+
+
+12. Here are my current src files — preprocessing.py, evaluation.py, models.py and main.py. Check if everything is accurate. Add any comment or anything if looks necessary.
+ Claude.ai 
+ https://claude.ai
+
+
+13. How to implement a baseline model for comparison in machine learning.
+ ChatGPT
+ https://chat.openai.com
+
+
+14. Add DummyRegressor baseline model into my training pipeline.
+ ChatGPT
+ https://chat.openai.com 
+
+
+15. How to add confidence score to regression output in Gradio app.
+ ChatGPT
+ https://chat.openai.com 
+
+
+16. Why is my model dictionary key not matching evaluation results? Fix KeyError: 'Linear Regression' when selecting best model.
+ ChatGPT
+ https://chat.openai.com 
+
+
+17. What is polynomial feature expansion and when should it be used?
+ ChatGPT
+ https://chat.openai.com 
+
+
+18. Numeric features: 65, categorical: 24 — isn’t there something wrong here.
+ ChatGPT
+ https://chat.openai.com 
+
+
+19. Can you write me a code part where I can remove all of them in one place.
+ ChatGPT
+ https://chat.openai.com 
+
+
+20. I dont want all the files in the github. the last repository i made addedd all these files and i just want to add the code related files in the folder names Mental_Health.
+ Gemini 3 Flash
+ https://gemini.google.com/
+ 
+
+21. name the datasets so i can confirm their authenticity.
+ ChatGPT
+ https://chat.openai.com 
+
+
+22. listyen now gonna keep it short and clear. this dataset that we have been working on is total synthetic and i found another datsdet so i think we should check it with this datset 
+ ChatGPT
+ https://chat.openai.com 
