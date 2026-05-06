@@ -1,0 +1,8 @@
+.venv/
+.gradio/
+*.docx
+*.pdf
+*.code-workspace
+*.png
+*.jpg
+!Mental_Health/
